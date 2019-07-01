@@ -13,12 +13,22 @@ a{
 li{
     list-style-type: none;
 }
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+}
+h2{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color:tomato;
+}
 /*-------------------------------header----------------------------------*/
 /*-----------------------------------------------------------------*/
 /*-----------------------------------------------------------------*/
 .header{
     width:100%;
     height:10em;
+   
 }
 
 /*----------------*/
@@ -42,6 +52,7 @@ li{
     width:80%;
     height:70%;
     margin:0 auto;
+    
 }
 .logo{
     float: left;
@@ -62,21 +73,77 @@ li{
 }
 .menu ul li ul{
     position: absolute;
+    visibility: hidden;
 }
 .menu ul li:hover .submenu li {
     visibility: visible;
 }
 
-/*-------------------------------contetn----------------------------------/
-/*-----------------------------------------------------------------/
-/*-----------------------------------------------------------------/
+/*-------------------------------contetn----------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/* .content{
+    width: 100%;
+    min-height: 
+} */
+
+/*------------slide-----------*/
+.slider{
+    position:relative;
+}
+.slider h2{
+    position: absolute;
+    top:0;
+}
 
 
+/*-----------about-----------*/
+.about{
+    width:80%;
+    height:35em;
+    margin:0 auto;
+    text-align: center;
+}
+.about-top{
+    width:100%;
+    height:50%;
+}
+.about-top h1{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.about-top h2{
+    color:tomato;
+    padding-bottom:1em; 
+}
+.about-bottom{
+    width:100%;
+    height:50%;
+}
+.myseft{
+    width:25%;
+    height: 100%;
+    float:left;
+}
+.myhobby{
+    width:25%;
+    height: 100%;
+    float: left;
+}
+.myglory{
+    width:25%;
+    height: 100%;
+    float: left;
+}
+.myfirst{
+    width:25%;
+    height: 100%;
+    float:left;
+}
+.about-bottom h2{
+    padding-top: 2em;
+}
 
-
-
-
-
-/*-------------------------------footer----------------------------------/
-/*-----------------------------------------------------------------/
-/*-----------------------------------------------------------------/
+/*-------------------------------footer----------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
